@@ -1,13 +1,13 @@
 ---
-name: world countries and their flags with Javascript
-description: This is an app that contain the list of all the countries in the world with teir names and flags
-author: @Taiwrash
-category: web development
+name: "world countries and their flags with Javascript"
+description: "This is an app that contain the list of all the countries in the world with teir names and flags"
+author: "@Taiwrash"
+category: "web development"
 ---
 
 # Country List
 
-![Sample Page](/img/page)
+![Sample Page](/img/Untitled.png)
 
 This is the [Live Demo](https://codepen.io/Taiwrash/countries-list-app/run) of the app and [Full Code](https://codepen.io/Taiwrash/countries-list-app).
 
