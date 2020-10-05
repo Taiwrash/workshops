@@ -7,7 +7,7 @@ category: "web development"
 
 # Country List
 
-![Sample Page](/img/Untitled.png)
+![Sample Page](img/Untitled.png)
 
 This is the [Live Demo](https://codepen.io/Taiwrash/countries-list-app/run) of the app and [Full Code](https://codepen.io/Taiwrash/countries-list-app).
 
