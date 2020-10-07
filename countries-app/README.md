@@ -221,8 +221,10 @@ It is basically DOM method that is used to move an element from its current posi
 **_ This is basically to show how it is easy and play around with javascript when working with vanilla javascript _**
 
 other live demo and extension.
-[country list app with amazin style](codepen.io)
 
 [three layered country list app](https://rasheedtaiwo.github.io/day16)
+
+[country list app with amazing style](codepen.io)
+
 
 [leom](repl.it)
