@@ -6,7 +6,7 @@ author: "@Taiwrash"
 
 ## Country List
 
-![Sample Page](img/untitled.png)
+![Sample Page](img/Untitled.png)
 
 This is the [Live Demo](https://country-list.taiwrash.repl.co) of the app and [Full Code](https://repl.it/@Taiwrash/country-list).
 
