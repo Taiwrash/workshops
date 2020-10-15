@@ -6,7 +6,7 @@ author: "@Taiwrash"
 
 ## Country List
 
-![Sample Page](img/page)
+![Sample Page](img/untitled.png)
 
 This is the [Live Demo](https://country-list.taiwrash.repl.co) of the app and [Full Code](https://repl.it/@Taiwrash/country-list).
 
@@ -67,7 +67,6 @@ This is purposely to remove the default margin and padding of every element and 
 ```
   main {
   width: 100vw;
-  height: 100vh;
   background-color: gainsboro;
   display: flex;
   flex-direction: column;
