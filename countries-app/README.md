@@ -8,7 +8,7 @@ author: "@Taiwrash"
 
 Building an application that fetches data from an API is always done with a framework or a librabry in javascript for easy implementation. The procedure is a simple one! And I will be showing you how to do this purely with javscript. Amazing, right? Below is what we are going to build within a very short time.
 
-[![Sample Page]((https://cloud-g6yi6cyg3.vercel.app/0untitled.png)](https://country-list.taiwrash.repl.co)
+[![Sample Page](https://cloud-g6yi6cyg3.vercel.app/0untitled.png)](https://country-list.taiwrash.repl.co)
 
 Here is the [Live Demo](https://country-list.taiwrash.repl.co) of the app and the [Full Code Here](https://repl.it/@Taiwrash/country-list).
 
@@ -239,7 +239,7 @@ It is basically the **`DOM`** method that is used to move an element from its cu
 
 _WAW!_ You just built a web-app that fetches data from external API using pure (vanilla) Javascript. And your page should look like the image below.
 
-[![Sample Page]((https://cloud-g6yi6cyg3.vercel.app/0untitled.png)](https://country-list.taiwrash.repl.co)
+[![Sample Page](https://cloud-g6yi6cyg3.vercel.app/0untitled.png)](https://country-list.taiwrash.repl.co)
 
 **_ This is basically to show how easy it is to play around with javascript when working with vanilla javascript and API _**
 
