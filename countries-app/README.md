@@ -134,7 +134,7 @@ p {
 
 The font size and type are set with the lines of codes above, and the spacing is also set with the padding and margin commands. The texts are coloured in gainsboro.
 
-# The Script part and the magic section
+## The Script part and the magic section
 
 ```js
   window.addEventListener("load", (e) => {
@@ -166,7 +166,7 @@ The font size and type are set with the lines of codes above, and the spacing is
       }
 ```
 
-**_ This is the code that does all the magic you see when you press the play green button on repl.it (or when you run your code on your editor) at this point as it is the complete code for the application. However, I will be expalaining what each line of code does, one after the other _**
+** This is the code that does all the magic you see when you press the play green button on repl.it (or when you run your code on your editor) at this point as it is the complete code for the application. However, I will be expalaining what each line of code does, one after the other **
 
 As the window loads, a fuction gets called. Where main, card and cardParent are set for DOM manipulation.
 
@@ -241,7 +241,7 @@ _WAW!_ You just built a web-app that fetches data from external API using pure (
 
 [![Sample Page](https://cloud-g6yi6cyg3.vercel.app/0untitled.png)](https://country-list.taiwrash.repl.co)
 
-**_ This is basically to show how easy it is to play around with javascript when working with vanilla javascript and API _**
+** This is basically to show how easy it is to play around with javascript when working with vanilla javascript and API **
 
 ## What Next?
 
