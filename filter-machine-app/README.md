@@ -29,7 +29,7 @@ In this workshop we will be building a filter bar which respond to user search i
 
 ## Where to write all the code?
 
-This Project was develop through the [repl website][https://repl.it/ ] chosing the `html/css/js` as language. It is easy to use, kindly sign up if you don't have an account. Our code in this workshop will be structured in three different file.
+This Project was develop through the [repl website](https://repl.it/) chosing the `html/css/js` as language. It is easy to use, kindly sign up if you don't have an account. Our code in this workshop will be structured in three different file.
 
 1. `HTML file (index.html)`: This contain all our html code
 2. `CSS file (style.css)`: This contain all our css code
@@ -179,7 +179,7 @@ input {
 }
 ```
 
-Width was to the 70% of the header width, you can do the maths ): margin push it away from the <h2> tag on top. The little round corner was through the help of border-radius property
+Width was to the 70% of the header width, you can do the maths ): margin push it away from the `(<h2>)` tag on top. The little round corner was through the help of border-radius property
 
 - Styling the cards
 
