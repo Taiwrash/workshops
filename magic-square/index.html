@@ -68,6 +68,22 @@ const randomColors = () => {
   return random = array[Math.floor(Math.random() * array.length)];
   
 };
+
+const randomShadow = () => {
+  let shadowArray = ["2px 6px red", "2px 6px white", "2px 6px orange"];
+  return randomShad = shadowArray[Math.floor(Math.random() * shadowArray.length)];
+ 
+};
+
+squareOne.addEventListener("click", () => {
+  document.querySelectorAll(".container div").forEach((item) => {
+ //This means the functions below trigger 9x and over every item and each time applies a random style
+    item.style.backgroundColor = randomColors();
+    item.style.boxShadow = randomShadow();
+    item.style.transform = rotateSquares();
+  });
+});
+
 </script>
     </body>
 </html>
