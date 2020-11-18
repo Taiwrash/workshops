@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: #e5d6f3;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  
+grid-template-columns: 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.container div {
+  background-color: purple;
+  border-radius: 5px;
+  box-shadow: 2px 6px red;
+  transition: 1s ease-in;
+}
+
+.first{
+  display:grid;
+  font-size:14px;
+  color:white;
+  text-shadow:1px 2px 4px black;
+  align-items:center;
+  justify-content:center;
+  padding:1px;
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="first">Click me</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+<script>
+let allSquares = document.querySelector("div");
+let squareOne = document.querySelector("div").children[0];
+let bodyBackground = document.querySelector("body");
+
+bodyBackground.style.backgroundColor = "#1E252A";
+
+const rotateSquares = () => {
+  let transformArray = ["rotate(20deg)", "rotate(40deg)", "rotate(80deg)"];
+  return randomTransform = transformArray[Math.floor(Math.random() * transformArray.length)];
+  
+};
+
+const randomColors = () => {
+  let array = ["yellow", "pink", "blue", "green", "aqua"];
+  return random = array[Math.floor(Math.random() * array.length)];
+  
+};
+
+const randomShadow = () => {
+  let shadowArray = ["2px 6px red", "2px
+</script>
+    </body>
+</html>
