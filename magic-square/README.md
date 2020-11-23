@@ -131,7 +131,7 @@ Now we are almost done! But let's decorate the text in the first square a little
 
 We just make the text a little bit fit into the box, setting out its font size, type and colour. A little shadow was added to make it stands out as we start performing our magic. grid property enabled the `align-items` property which gives us the ability to set the text verically centered in the square.
 
-[!weldone](https://cloud-2ktbvz94x.vercel.app/2weldone.gif)
+![weldone](https://cloud-2ktbvz94x.vercel.app/2weldone.gif)
 
 _You can't belief we are done with the css parts of our workshop it remain one simple part_
 
