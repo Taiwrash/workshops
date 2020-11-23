@@ -3,6 +3,7 @@ name: "Magic Square with Javascript"
 description: "Magic square is a web page that behaves like a rubik's cube"
 author: "@Taiwrash"
 ---
+[!page](https://cloud-2ktbvz94x.vercel.app/5images.png)
 
 In one time or the other we've heard or see a rubik's cube. We may thought of how to have a webpage that behaves like it. In this workshop you will see how simple it is to manipulate the `DOM` and use style to build great stuffs.
 
@@ -68,7 +69,6 @@ _This is all for our html code and we move_
 
 Moving on, we will be setting the style (colors, textures, tranforms, shadow etc) for everything in our app as the required by each app.
 
-[!style](style.png)
 
 **_Note_ Every code in this part are to be in the `style.css` file.**
 
@@ -132,7 +132,7 @@ Now we are almost done! But let's decorate the text in the first square a little
 
 We just make the text a little bit fit into the box, setting out its font size, type and colour. A little shadow was added to make it stands out as we start performing our magic. grid property enabled the `align-items` property which gives us the ability to set the text verically centered in the square.
 
-[!WOW](wow.gif)
+[!weldone](https://cloud-2ktbvz94x.vercel.app/2weldone.gif)
 
 _You can't belief we are done with the css parts of our workshop it remain one simple part_
 
@@ -140,7 +140,7 @@ _You can't belief we are done with the css parts of our workshop it remain one s
 
 This is the most exciting and crucial part of our workshop and we are starting with the fun part.
 
-[!fun](fun.gif)
+[!fun](https://cloud-2ktbvz94x.vercel.app/3excited.gif)
 
 **_Note_ Every Snippets in this part are to be in the `script.js` file.**
 
@@ -200,7 +200,7 @@ const boxShadows = () => {
 
 The above return a random shadow values.
 
-[great!](great.gif)
+[great!](https://cloud-2ktbvz94x.vercel.app/1fantastic.gif)
 
 Let's put the functionalities together, we do this by adding an `addEventListener` to the master square as shown below:
 
@@ -216,7 +216,7 @@ master.addEventListener("click", () => {
 
 The `addEventListener` enable a click event on the master div and `querySelectorAll` used to bring the squares to the DOM which return an array. This gives us an ability to perform an `Higher Order Function` (HOF) on the square array return by the querySelectorAll which is the `item` variable of the `forEach` function which represent every child of the element of the div with the class of container.
 
-[!Amazing](amazing.gif)
+[!Amazing](https://cloud-2ktbvz94x.vercel.app/4congratulations.gif)
 YAY! Congratulations you just built a Magic Square app. Test it by clicking on the master div.
 
 [!final](final.gif)
