@@ -23,7 +23,8 @@ The basic and prerequisite for this workshop is HTML, CSS and Javascript. Never 
 
 This workshop will be using [repl.it](https://repl.it) as the development environment. [Click Here](https://repl.it) to signup, if you don't have an account and create a coding environment to follow along on this workshop.
 
-[!coding_page](repl.png)
+
+![Repl.it](https://cloud-be2z8hzbo.vercel.app/0image.png)
 
 ## Mark Up Section (HTML Set Up)
 
@@ -82,7 +83,7 @@ body {
 
 Since we need to display our square in a `matrix of 3 x 3` that is, we are creating three rows and three columns for the squares as the our work so far only display the background colour we set at the top with our text `TAP ME` and nothing else.
 
-Now we have to make some visualisation to our app and we will be implementing the `CSS GRID`. To learn more about css grid, you can check out this [`css grid cheat sheet`](cssgrid.com).
+Now we have to make some visualisation to our app and we will be implementing the `CSS GRID`. To learn more about css grid, you can check out this [`css grid cheat sheet`](https://www.codecademy.com/learn/learn-css/modules/learn-css-grid/cheatsheet).
 
 Add the below snippets, to see css grid in action:
 
@@ -111,7 +112,7 @@ OH yes! we are getting there. Let's display each square and see wonderful we've 
 ```
 
 Each square is expected to have a background colour of `green` and little round edge with the help of `border-radius` and also nice big shadow of `blue` colour with a little `transition` animation.
-[!result](result.png)
+![result](result.png)
 
 
 Now we are almost done! But let's decorate the text in the first square a little bit.
@@ -235,5 +236,7 @@ Check hacks by other people to see more
 ## More Resources
 
 [querySelector]()
+
 [css transform]()
-[forEach HOF]()
+
+[forEach as HOF]()
