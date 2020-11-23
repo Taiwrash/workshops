@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Square Workshop</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f4f4;
+        font-family: sans-serif;
+      }
+
+      main {
+        width: 80vw;
+        height: 400px;
+        background-color: azure;
+        margin: auto;
+        margin-top: 20%;
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+        /* grid-template-rows: 60x 60px 60px; */
+        justify-content: center;
+      }
+
+      div {
+        width: 40px;
+        height: 40px;
+        background-color: #f4f4;
+        margin-top: 20px;
+        box-shadow: 2px 2px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="master">Tap Me</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </main>
+    <script>
+      const master = document.querySelector(".master");
+      const squares = document.querySelectorAll("div");
+      const body = document.querySelector("body");
+
+      const bgColor = () => {
+        const backgroundColor = ["red", "blue", "green", "yellow", "purple"];
+
+        return backgroundColor[
+          Math.floor(Math.random() * backgroundColor.length)
+        ];
+      };
+
+      const transform = () => {
+        const tranformValues = [
+          "rotate(30deg)",
+          "rotate(45deg)",
+          "rotate(90deg)",
+          "rotate(60deg)",
+        ];
+        return tranformValues[
+          Math.floor(Math.random() * tranformValues.length)
+        ];
+      };
+
+      const boxShadow = () => {
+        const shadows = [
+          "2px, 2px, 5px black",
+          "3px, 3px, 20px blue",
+          "4px, 4px, 10px red",
+        ];
+        return shadows[Math.floor(Math.random() * shadows.length)];
+      };
+
+      master.addEventListener("click", () => {
+        squares.forEach((item) => {
+          item.style.backgroundColor = bgColor();
+          item.style.transform = transform();
+          item.style.boxShadow = boxShadow();
+        });
+        //   squares.style.backgroundColor = bgColor();
+        body.style.backgroundColor = bgColor();
+        //   squares.style.transform = transform();
+        //   squares.style.boxShadow = boxShadow();
+      });
+    </script>
+  </body>
+</html>
