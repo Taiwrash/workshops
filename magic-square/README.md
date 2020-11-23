@@ -227,7 +227,7 @@ This is just the beginning of the style you can apply by manipulate the DOM. I w
 
 Check hacks by other people to see more
 
-[Magic Square with Magic Background](https://rasheedtaiwo.github.io/workshop)
+[Magic Square with Magic Background](https://taiwrash.github.io/workshop/magic-square/sample.html)
 
 [Hacks on Scrimba](https://scrimba.com)
 
