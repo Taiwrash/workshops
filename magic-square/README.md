@@ -227,16 +227,17 @@ This is just the beginning of the style you can apply by manipulate the DOM. I w
 
 Check hacks by other people to see more
 
+[Tile Game from Magic Square](https://vigorous-blackwell-168b39.netlify.app/)
+
 [Magic Square with Magic Background](https://taiwrash.github.io/workshops/magic-square/sample.html)
 
 [Hacks on Scrimba](https://scrimba.com)
 
-[Hacks on Scrimba](https://scrimba.com)
 
 ## More Resources
 
-[querySelector]()
+[querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-[css transform]()
+[CSS transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
-[forEach as HOF]()
+[forEach as HOF](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
