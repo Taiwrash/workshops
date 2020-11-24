@@ -10,7 +10,7 @@ At one time or the other, we would have heard or seen a Rubik's cube. We might a
 At the end of this workshop you will be able to make a _MAGIC SQUARE APP_. An application that behaves like a rubik's cube as shown below.
 
 
-The live demo is available [here](https://google.com) and the full code [here](https://google.com)
+The live demo is available [here](https://magic-square.taiwrash.repl.co) and the full code [here](https://repl.it/@Taiwrash/magic-square)
 
 ![page](example.gif)
 
