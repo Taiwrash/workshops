@@ -1,6 +1,6 @@
 ---
 name: "Magic Square with Javascript"
-description: "Magic square is a web page that behaves like a rubik's cube"
+description: "Magic square is a web page that behaves like a Rubik's Cube"
 author: "@Taiwrash"
 ---
 ![page](https://cloud-2ktbvz94x.vercel.app/5images.png)
@@ -9,7 +9,6 @@ In one time or the other we've heard or see a rubik's cube. We may thought of ho
 
 At the end of this workshop you will be able to make a _MAGIC SQUARE APP_. An application that behaves like a rubik's cube as shown below.
 
-![page](landing.gif)
 
 The live demo is available [here](https://google.com) and the full code [here](https://google.com)
 
@@ -231,7 +230,7 @@ Check hacks by other people to see more
 
 [Magic Square with Magic Background](https://taiwrash.github.io/workshops/magic-square/sample.html)
 
-[Hacks on Scrimba](https://scrimba.com)
+[Hacks on color style](https://scrimba.com/scrim/cof9e4a628090e0b4dd64edf8)
 
 
 ## More Resources
