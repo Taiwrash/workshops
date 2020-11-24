@@ -12,7 +12,7 @@ At the end of this workshop you will be able to make a _MAGIC SQUARE APP_. An ap
 
 The live demo is available [here](https://magic-square.taiwrash.repl.co) and the full code [here](https://repl.it/@Taiwrash/magic-square)
 
-![page](example.gif)
+![page](https://cloud-esohbbw0s.vercel.app/0example.gif)
 
 ## Set Up
 
@@ -111,7 +111,7 @@ OH yes! we are getting there. Let's display each square and see the wonderful wo
 ```
 
 Each square is expected to have a background `green` colour, a little round edge with the help of `border-radius`, and a nice big `blue` shadow with a little `transition` animation.
-![result](result.png)
+![result](https://cloud-esohbbw0s.vercel.app/1rresult.gif)
 
 
 Now we are almost done! But let's decorate the text in the first square a little bit.
@@ -218,7 +218,7 @@ The `addEventListener` enables a click event on the master div and `querySelecto
 ![Amazing](https://cloud-2ktbvz94x.vercel.app/4congratulations.gif)
 YAY! Congratulations you just built a Magic Square app. Test it by clicking on the master div.
 
-![final](final.gif)
+![final](https://cloud-esohbbw0s.vercel.app/0example.gif)
 
 This is just the beginning of the styles you can apply by manipulating the DOM. I will be glad to see more of your works using what you have learnt in this workshop
 
