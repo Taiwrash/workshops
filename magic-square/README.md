@@ -99,6 +99,8 @@ Add the snippets below to see css grid in action:
 
 Remember, all the nine squares are in a container. The CSS snippet above will authomatically create a `60px by 60px` square for us which displays in a 3 by 3 matrix format, with a gap of `30px` between each other with the help of the css property `gap`.
 
+![grid](https://cloud-1zwgmmkbo.vercel.app/0images__6_.jpeg)
+
 ### Explanations!.
 As mentioned earlier, This workshop will be implementing the CSS layout module called CSS grid which uses rows and columns to simplify or eradicate the usage of float and position properties in web page design. Bqelow is the simple and easy to grab explanation!
    1. CSS grid always consist of parent element with one or more child element. In this workshop div tag with the class attribute of container serves as the parent element with nine div which is refers to as children in CSS grid terms.
