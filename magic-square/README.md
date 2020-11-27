@@ -47,7 +47,7 @@ The above snippet serves as container for all the nine squares that will represe
 <div></div>
 ```
 
-Remember, the nine `divs` above represent the squares we will be interacting with and they will be showing green colour at the end of the CSS section below and your final code should look like this:
+Remember, the nine `divs` above represent the squares we will be interacting with, and they will be showing a green colour at the end of the CSS section below and your final code should look like this:
 
 ```html
 <div class="container">
@@ -102,15 +102,14 @@ Remember, all the nine squares are in a container. The CSS snippet above will au
 ![grid](https://cloud-1zwgmmkbo.vercel.app/0images__6_.jpeg)
 
 ### Explanations!.
-As mentioned earlier, This workshop will be implementing the CSS layout module called CSS grid which uses rows and columns to simplify or eradicate the usage of float and position properties in web page design. Bqelow is the simple and easy to grab explanation!
-   1. CSS grid always consist of parent element with one or more child element. In this workshop div tag with the class attribute of container serves as the parent element with nine div which is refers to as children in CSS grid terms.
-   2. To enable CSS grid, you need to use the CSS property `display` and set it value to `grid` with this CSS grid module is ready to go.
-   3. After display property set to grid, every element inside the parent element is refers to as CSS items which can be control in rows and columns. Vertical lines are columns while the horizontal lines are rows.
-   4. The space between two grid items is `gap` or `grid-gap`. Taking closer look at the CSS snippet above, you can see how the `gap` was set to `30px`
-   5. `grid-template-columns`: this a property that defines the number of columns in the grid layout. It values can be in `px, % em auto` and other relatives CSS values and it is repeated in the numberb of columns we want as shown above.
-   6. `grid-template-rows`: behave same way as grid-template-columns but in rows that is in horizontal grid layout
-   7. `justify-content`: This align grid items horizontally as the value indicates while `align-items` also justify and align the grid items vertically.
-
+As mentioned earlier, This workshop will be implementing the CSS layout module called CSS grid which uses rows and columns to simplify or eradicate the usage of float and position properties in web page design. Below is a simple and easy to comprehend explanation!
+   1. CSS grid always consist of a parent element with one or more child element. In this workshop, the div tag with the class attribute of container serves as the parent element with nine divs, which are refered to as the children in the CSS grid terms.
+   2. To enable CSS grid, you need to use the CSS property `display` and set its value to `grid`. With this, the CSS grid module is all set! 
+   3. After the display property is set to grid, every element inside the parent element is refers to as CSS items which can be controlled in rows and columns. Vertical lines are columns while the horizontal lines are rows.
+   4. The space between two grid items is `gap` or `grid-gap`. Taking a closer look at the CSS snippet above, you can see how the `gap` was set to `30px`
+   5. `grid-template-columns`: this a property that defines the number of columns in the grid layout. Its values can be in `px, %, em` or set to `auto` or other relative CSS values. It is repeated in the numbers of columns we want as shown above.
+   6. `grid-template-rows`: behaves in the same way as grid-template-columns, but in rows (horizontal grid layout) 
+   7. `justify-content`: This aligns the grid items horizontally as the value indicates while `align-items`  justifies and align the grid items vertically.
 
 OH yes! we are getting there. Let's display each square and see the wonderful work we've been doing so far. By adding the following CSS snippet, you will be happy to see the great work you have been doing so far.
 
@@ -124,11 +123,11 @@ OH yes! we are getting there. Let's display each square and see the wonderful wo
 ```
 
 ### Explanation!
-   - Paying full attention to the above code `.container div` because we want to select All the docs (grid items) inside the container which will later represent our squares 
-   - Each square background will be getting background colour of green as indicated above.
-   - `border-radius` help in getting a good and an awesome rounded corner of an element and when circle is intended, the element will be set to the same width and height and`border-radius` of `50%` will give a nice looking circle.
-   - This gives a shadow below our object, if we intend to add a blur to the shadow we do that by including the fourth value in the list of the value the declaring the colour but we are not using the `blur` we only apply th offsets and it looking good.
-   - The last property in the above is transition which is responsible for fading pattern exhibits by the square during magic. The whole transition will take 1 second with an ease-in allow to put it ease inward
+   - Pay a full attention to the `.container div` code above because we want to select all the docs (grid items) inside the container which will later represent our squares 
+   - Each square background will be getting a green background colour as indicated above.
+   - `border-radius` helps give an awesome rounded corner to an element, and when a circle is intended, the element will be set to the same width and height and then given a `border-radius` of `50%`, this will give a perfect circle.
+   -`box shadow` creates a shadow below our object. If we intend to add a blur to the shadow, we do that by including the third value in the list of the values, then declare the colour, but we are not using the `blur` value here so we only apply the offsets and it is looking good.
+   - The last property above is transition, which is responsible for the fading pattern exhibited by the square during magic. The will have a 1 second duration with an ease-in value, allowing it to ease inward
 
 Each square is expected to have a background `green` colour, a little round edge with the help of `border-radius`, and a nice big `blue` shadow with a little `transition` animation.
 ![result](https://cloud-esohbbw0s.vercel.app/1rresult.gif)
@@ -150,9 +149,9 @@ Now we are almost done! But let's decorate the text in the first square a little
 ```
 
 ### Explanations!
-  - Why styling this alone because it is the master and we need to set its text to be visible cool to read.
-  - Most of the has been explained so far but you may ask why are we having display property set to grid here. It is basically to get the ability of styling the text vertically and horizontally centered. The omitted which need some attention is:
-  - `text-shadow` and `box-shadow` the former are used on `text` while the later are used in boxes like docs, article, section etc.
+  - Why style this alone? We do so because it is the master, and we need to set its text to be visible and easy to read.
+  - Most of the properties have been explained so far, but you may ask that: why are we having the display property set to grid here? It is basically to have the ability to style the text to be vertically and horizontally centered. The omitted properties that need some attention are
+  - `text-shadow` and `box-shadow`. The former is used on `texts` while the later is used with boxes like divs, article, section etc.
 
 We have just made the text fit a little bit into the box, setting out its font size, type and colour. A little shadow was added to make it stand out as we start performing our magic. The grid property enabled the `align-items` property which gives us the ability to make the text verically centered in the square.
 
@@ -201,14 +200,14 @@ const transformSquares = () => {
 ```
 
 ### Explanation!
-Let's break this down and see what is going on. First, we are declaring an arrow function, which is a new way of creating functions in ECMAScript (ES6) of javascript. The function was named `transformSquares`, and we created an array of CSS values to be applied to the squares during the magic inside the fuction. Remember `rotate()` is a CSS value for the `transform` property, you will understand this better later in the workshop. Finally, the function is returning random values from our array of values created in the function.
-  1. CSS values for transform always look like this `transform:rotate(320deg)`. We can see how the rotate value was placed in the CSS. Here we will be dealing with value.
-  2. We need to set the value of the transform, doing this is an array created in the function
-  3. To avoid the value been applied in a row or following each other then we implement`Math.random()` which return at random the values passed in, in this case transform array. We reduce the number of chances at which a single colour get returned.
-  4. Return keywordvhelp state explicitly what we are planning to return or to make our function do.
-
+Let's break this down and see what is going on. First, we are declaring an arrow function, which is a new way of creating functions in ECMAScript (ES6) of javascript. The function was named `transformSquares`, and we created an array of CSS values to be applied to the squares during the magic inside the fuction. Remember that `rotate()` is a CSS value for the `transform` property, you will understand this better later in the workshop. Finally, the function is returning random values from our array of values created in the function.
+  1. CSS values for transform always look like this: `transform:rotate(320deg)`. We can see how the rotate value was placed in the CSS. Here we will be dealing with value.
+  2. We need to set the value of the transform. We do this with the array created in the function
+  3. To avoid the value being applied in a row or following each other, we implement `Math.random()`, which returns the values passed in at random, in this case the transform array. We reduce the number of chances at which a single colour gets returned.
+  4. The `return` keyword help state explicitly what we are planning to return or make our function do.
   5.6 - While creating other functions, try as much as possible to use the same approach only the array we created for the transform will be changed to colour when creating a function that handles colours of our app and also shadow.
-- Note: You can as much as possible add other styles as wishes to make the app more good and okay to the users.
+
+- Note: You can as much as possible add other styles as you wishes to make the app more good and okay to the users.
 
 
 Next is to create the remaining funtions for other styles of our magic!
@@ -249,20 +248,20 @@ master.addEventListener("click", () => {
 });
 ```
 
-### Explanation!
-
-Bye to code for this workshop but do you know how the snippet above works
- Let me explain myself. When`querySelectorAll is being used it's return an array. In this case of our html squares is going to be an array with 9 elements.
-  1. Adding`addEventListener` to the master div to enable it to handle the click event and carry certain tasks
-  2. When the master is click what we intend to happen will put in the function next to it
-  3. Since we are getting an array from querySelectorAll we have the access of looping through.
-  4. To make it simple we are using forEach method which return each element which is denoted by `item` above and
-  5. Each items (which are the squares) will be getting the style created in our functions applied.
-  6. `element.style.property = "value"` is the method of applying CSS in JavaScript that is in DOM. Element stands for the html mark up bring to Dom and the style is a JavaScript recognised CSS rules and the property as always declared in CSS and finally, values gotten from the functions above 
+### Explanations
+Bye to codes for this workshop. But do you know how the snippet above works? 
+ Let me explain myself. When `querySelectorAll` is being used it returns an array. In this case of our html squares are going to be arrays with 9 elements.
+  1. Adding `addEventListener` to the master div to enable it handle the click event and carry certain tasks
+  2. When the master is clicked, our next intended action is passed into `addEventListener` as a function. 
+ 3. Since we are getting an array from `querySelectorAll`, we have the access to loop through.
+  4. To make it simple we are using the `forEach` method which returns each element which is denoted by `item` above and
+  5. Each item (the squares) will be getting the style created in our functions applied.
+  6. `element.style.property = "value"` is the method of applying CSS in Javascript (the DOM). `element` stands for the html element brought to the DOM, `style` is for the  JavaScript to recognize the CSS rule, the `property` is declared in CSS as always and finally, `value` is what is returned from the functions above.
 
 The `addEventListener` enables a click event on the master div and `querySelectorAll` is used to bring the squares to the DOM which returns an array. This gives us the ability to perform a `Higher Order Function` (HOF) on the square array returned by the `querySelectorAll` which is the `item` variable of the `forEach` function which represents every child of the element of the div with the class of container.
 
 ![Amazing](https://cloud-2ktbvz94x.vercel.app/4congratulations.gif)
+
 YAY! Congratulations you just built a Magic Square app. Test it by clicking on the master div.
 
 ![final](https://cloud-esohbbw0s.vercel.app/0example.gif)
@@ -282,8 +281,8 @@ Check hacks by other people to see more
 
 ## More Resources
 
-[querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+[QuerySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 [CSS transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
-[forEach as HOF](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+[Foreach as HOF](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
