@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gainsboro;
+      }
+      .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 60px 60px 60px;
+        grid-template-rows: 60px 60px 60px;
+        margin-top: 50px;
+        gap: 30px;
+      }
+
+      .container div {
+        background-color: purple;
+        border-radius: 5px;
+        box-shadow: 2px 6px red;
+        transition: 1s ease-in;
+      }
+      .master {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-shadow: 1px 2px 4px black;
+        padding: 1px;
+        font-family: "Roboto", sans-serif;
+        display: grid;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="master">TAP ME</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <script>
+      const master = document.querySelector(".master");
+      const squares = document.querySelectorAll(".container div");
+      const body = document.querySelector("body");
+
+      const transformSquares = () => {
+        const tranformValues = [
+          "rotate(30deg)",
+          "rotate(45deg)",
+          "rotate(120deg)",
+          "rotate(60deg)",
+        ];
+        return tranformValues[
+          Math.floor(Math.random() * tranformValues.length)
+        ];
+      };
+
+      const bgColor = () => {
+        let backgroundColors = ["yellow", "pink", "blue", "green"];
+        return backgroundColors[
+          Math.floor(Math.random() * backgroundColors.length)
+        ];
+      };
+
+      const boxShadows = () => {
+        const shadows = ["2px 6px red", "2px 6px white", "2px 6px orange"];
+        return shadows[Math.floor(Math.random() * shadows.length)];
+      };
+
+      master.addEventListener("click", () => {
+        squares.forEach((item) => {
+          item.style.backgroundColor = bgColor();
+          item.style.transform = transformSquares();
+          item.style.boxShadow = boxShadows();
+        });
+      });
+
+      squares[1].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[1].style.boxShadow = boxShadows();
+          squares[1].style.transform = transformSquares();
+          squares[1].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+      squares[3].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[3].style.boxShadow = boxShadows();
+          squares[3].style.transform = transformSquares();
+          squares[3].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+      squares[4].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[4].style.boxShadow = boxShadows();
+          squares[4].style.transform = transformSquares();
+          squares[4].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+      squares[5].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[5].style.boxShadow = boxShadows();
+          squares[5].style.transform = transformSquares();
+          squares[5].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+      squares[6].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[6].style.boxShadow = boxShadows();
+          squares[6].style.transform = transformSquares();
+          squares[6].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+      squares[7].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[7].style.boxShadow = boxShadows();
+          squares[7].style.transform = transformSquares();
+          squares[7].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+
+      squares[8].addEventListener("click", () => {
+        squares.forEach((item) => {
+          squares[8].style.boxShadow = boxShadows();
+          squares[8].style.transform = transformSquares();
+          squares[8].style.backgroundColor = bgColor();
+          //   item.style.boxShadow = boxShadows();
+        });
+      });
+    </script>
+  </body>
+</html>
